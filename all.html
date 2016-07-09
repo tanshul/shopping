@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Shopping Tracker</title>
+    <link href="./css/photon.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/app.css" rel="stylesheet" type="text/css">
+    
+  </head>
+  <body>
+   <div class="window">
+      <!-- Your app's content goes inside .window-content -->
+      <div class="window-content">
+        <div class="pane-group">
+          <div class="pane pane-sm sidebar">
+            <nav class="nav-group">
+              <h5 class="nav-group-title">Menu</h5>
+              <a href="index.html" class="nav-group-item">
+                <span class="icon icon-plus-circled"></span>
+                New Weekly Expense
+              </a>
+              <a class="nav-group-item active">
+                <span class="icon icon-menu"></span>
+                Show All Entries
+              </a>
+              <span class="nav-group-item">
+                <span class="icon icon-chart-bar"></span>
+                Breakdown
+              </span>
+            </nav>
+          </div>
+
+          <div class="pane">
+            <table class="table-striped">
+              <thead>
+                <tr>
+                  <th><b>Week</b></th>
+                  <th><b>Month</b></th>
+                  <th><b>Type</b></th>
+                  <th class="btn-primary"><b>Total</b></th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Week 1</td>
+                  <td>July</td>
+                  <td>Groceries</td>
+                  <td>$300</td>
+                  <td><span class="icon icon-trash"></span></td>
+                </tr>
+                <tr>
+                  <td>Week 2</td>
+                  <td>July</td>
+                  <td>Veges</td>
+                  <td>$30</td>
+                </tr>                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <footer class="toolbar toolbar-footer">
+        <h1 class="title">&copy; Simple Solutions Fiji</h1>
+      </footer>        
+    </div>  
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>

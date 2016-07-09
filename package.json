@@ -1,0 +1,19 @@
+{
+  "name": "fiji-opening-hours",
+  "version": "1.0.0",
+  "description": "Utility App for finding business opening hours in fiji",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Fiji",
+    "business",
+    "hours",
+    "opening"
+  ],
+  "author": "Tanshul Kumar",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}
